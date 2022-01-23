@@ -26,7 +26,7 @@ let AppService = class AppService {
         node_fetch_1.default('https://api.sendgrid.com/v3/mail/send', {
             method: 'POST',
             headers: {
-                Authorization: 'Bearer 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',
+                Authorization: 'Bearer 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',
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify(body),
